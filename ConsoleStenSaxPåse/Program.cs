@@ -10,6 +10,9 @@ namespace ConsoleStenSaxPåse
     {
         static void Main(string[] args)
         {
+            ConsoleIO.DefaultColor = ConsoleColor.White;
+
+            ConsoleIO.Write("Welcome to Sten Sax Påse!");
         }
     }
 }
